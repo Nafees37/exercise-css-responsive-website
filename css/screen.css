@@ -1,0 +1,87 @@
+/* screen size 900 */
+
+@media screen and (max-width: 900px) {
+  .col-2 nav {
+    display: none;
+  }
+
+  .three-icon {
+    display: block;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding-top: 40px;
+  }
+
+  .change-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+  }
+}
+
+/* screen size 798 */
+
+@media screen and (max-width: 798px) {
+
+  form input,
+  select {
+    width: 97% !important;
+  }
+
+  .text-photo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .run-btn {
+    width: 340px;
+    margin-bottom: 25px;
+  }
+
+  .feedback {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* screen size 700 */
+
+@media screen and (max-width: 700px) {
+  footer {
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+  }
+
+  .trainer-team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .text_con {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  form input,
+  select {
+    width: 97% !important;
+
+  }
+
+  .change-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 150px;
+  }
+
+}
+
+/* screen size 519 */
+
+@media screen and (max-width: 519px) {
+  .btn-small {
+    padding: 15px 25px;
+  }
+}
