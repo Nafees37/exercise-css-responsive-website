@@ -15,6 +15,7 @@
 
   .hero-text {
     padding-top: 40px;
+    max-width: 100%;
   }
 
   .change-img {
@@ -62,6 +63,10 @@
 
   .text_con {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-box {
+    padding-top: 50px;
   }
 
   form input,

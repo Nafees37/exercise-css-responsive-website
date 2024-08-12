@@ -1,12 +1,14 @@
 /* css font family cdn link */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+HR:wght@100..400&display=swap');
 
 .inter-fontFamily {
   font-family: "Inter", sans-serif;
 }
 
 .mrs-fontFamily {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Playwrite HR", cursive;
+  font-weight: 300;
+  padding-left: 10px;
 }
 
 * {
@@ -124,9 +126,8 @@
   justify-content: space-between;
 }
 
-.hero-title h1,
-p {
-  text-align: left !important;
+.hero-text {
+  max-width: 535px;
 }
 
 .hero-title h1 {
@@ -137,9 +138,10 @@ p {
 
 .hero-title p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
+  text-align: left;
 }
 
 .btn-hero {
@@ -159,26 +161,26 @@ p {
 .top-box {
   position: absolute;
   top: 160px;
-  left: 215px;
+  left: 200px;
   font-size: 16px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
-  width: 120px;
+  width: 145px;
   padding: 10px;
 }
 
 .bottom-box {
   position: absolute;
   bottom: 75px;
-  right: 250px;
+  right: 230px;
   font-size: 16px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
-  width: 120px;
+  width: 140px;
   padding: 10px;
 }
 
@@ -191,7 +193,7 @@ p {
 
 .top-box p,
 .bottom-box p {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   color: rgba(255, 255, 255, 0.65);
   font-weight: 400;
   letter-spacing: 1px;
@@ -221,7 +223,7 @@ p {
 }
 
 .change-tex {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   color: white;
   text-align: center;
@@ -229,13 +231,13 @@ p {
 }
 
 .change-tex h2 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   font-weight: 900;
 }
 
 .change-tex p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   padding-top: 15px;
 }
@@ -293,6 +295,7 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   font-size: .8rem;
+  text-align: left;
 }
 
 .run-photo img {
@@ -349,6 +352,7 @@ td {
   line-height: .9rem;
   letter-spacing: 0.3px;
   padding-bottom: 12px;
+  text-align: left;
 }
 
 form input,
@@ -487,7 +491,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 50px;
   padding-bottom: 30px;
+}
+
+.f-title {
+  padding-bottom: 20px;
+}
+
+
+.f-div2 ul>li {
+  padding-bottom: 10px;
 }
 
 .f-div1 {
@@ -506,10 +520,11 @@ footer {
   font-size: 0.9rem;
   font-weight: 400;
   letter-spacing: 0.3px;
+  text-align: left;
 }
 
 .f-div2 {
-  max-width: 118px;
+  max-width: 130px;
 }
 
 .f-div2 ul li a {
@@ -519,7 +534,7 @@ footer {
 }
 
 .f-div3 {
-  max-width: 118px;
+  max-width: 130px;
 }
 
 /* footer start */
