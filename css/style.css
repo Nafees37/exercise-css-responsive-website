@@ -459,10 +459,11 @@ select {
 }
 
 .feed-img {
-  max-width: 100px;
-  min-height: 100px;
   margin: 0 auto;
   padding-bottom: 15px;
+  border-radius: 100%;
+  width: 120px;
+  height: 140px;
 }
 
 .feed-img img {
@@ -479,8 +480,17 @@ select {
   padding: 0 0;
 }
 
+.rating-box {
+  padding-top: 10px;
+}
+
+.rating-icon i {
+  color: #f39c12;
+}
+
 .feedback-box p {
   text-align: center !important;
+  font-size: .8rem;
 }
 
 /* main section end */
