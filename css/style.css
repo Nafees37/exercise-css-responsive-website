@@ -320,7 +320,11 @@ caption {
 }
 
 .table-box {
-  max-width: 350px;
+  max-width: 335px;
+}
+
+.table-box table{
+  width: 100%;
 }
 
 .table-box th,
